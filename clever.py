@@ -3,3 +3,9 @@ def add(a,b):
 
 res = add(10,20)
 print(res)
+
+def facto(x):
+	if x==0 pr x==1:
+	return 1
+	else:
+	return x*facto(x-1)
